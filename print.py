@@ -1,0 +1,1 @@
+print(f"My name is Luke I do not have a favorite movie off the top of my head. And my favorite food is schnitzel") 
