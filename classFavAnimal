@@ -1,0 +1,18 @@
+class FavAnimal:
+    def __init__(self, arm_length, leg_length, num_eyes, tail, furry):
+        self.arm_length = float(arm_length)
+        self.leg_length = float(leg_length)
+        self.num_eyes = int(num_eyes)
+        self.tail = bool(tail)
+        self.furry = bool(furry)
+
+    def describe(self):
+        print("Favorite Animal Characteristics:")
+        print(f"Arm length: {self.arm_length}")
+        print(f"Leg length: {self.leg_length}")
+        print(f"Number of eyes: {self.num_eyes}")
+        print(f"Has a tail: {self.tail}")
+        print(f"Is furry: {self.furry}")
+
+my_animal = FavAnimal(1.2, 2.5, 2, True, True)
+my_animal.describe()
